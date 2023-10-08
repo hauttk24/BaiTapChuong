@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu đa cấp sử dụng HTML và CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+<body>
+    <div class="box-menu">
+        <ul>
+            <li class="active"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a></li>
+            <li><a href="/"><i class="fa fa-user" aria-hidden="true"></i> Giới thiệu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <div class="box-submenu">
+                    <ul>
+                        <li><a href="/">Về chúng tôi</a></li>
+                        <li><a href="/">Đội ngũ nhân viên</a></li>
+                        <li><a href="/">Tầm nhìn - Sứ mệnh</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/"><i class="fa fa-server" aria-hidden="true"></i> Chuyên mục <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <div class="box-submenu">
+                    <ul>
+                        <li><a href="/">Thiết kế giao diện website</a></li>
+                        <li><a href="/">Phát triển dự án</a></li>
+                        <li><a href="/">Lập trình Website</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/"><i class="fa fa-clone" aria-hidden="true"></i> Dịch vụ <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <div class="box-submenu">
+                    <ul>
+                        <li class="submenu-hover"><a href="/">Thiết kế website trọn gói </a><i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <div class="box-submenu-2">
+                                <ul>
+                                    <li><a href="/">Laravel</a></li>
+                                    <li><a href="/">ASP.NET(C#)</a></li>
+                                    <li><a href="/">Wordpress</a></li>
+                                    <li><a href="/">Java</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="submenu-hover"><a href="/">App</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <div class="box-submenu-2">
+                                <ul>
+                                    <li><a href="/">Android App</a></li>
+                                    <li><a href="/">iOS App</a></li>
+                                    <li><a href="/">Unity App</a></li>
+                                    <li><a href="/">Android App</a></li>
+                                    <li><a href="/">iOS App</a></li>
+                                    <li><a href="/">Unity App</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="/">Tên miền</a></li>
+                        <li><a href="/">Hosting</a></li>
+                        <li><a href="/">Wordpress</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/"><i class="fa fa-inr" aria-hidden="true"></i> Bảng giá</a></li>
+            <li><a href="/"><i class="fa fa-apple" aria-hidden="true"></i> Ứng dụng</a>
+                
+            </li>
+            <li><a href="/"><i class="fa fa-users" aria-hidden="true"></i> Khách hàng</a></li>
+            <li><a href="/"><i class="fa fa-phone" aria-hidden="true"></i> Liên hệ</a></li>
+        </ul>
+    </div>
+</body>
+</html>
